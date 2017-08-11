@@ -41,7 +41,7 @@ class LogisticRegression:
 
     def propagate(self, w, b, X, Y):
         """
-        Implement the cost function and its gradient for the propagation explained above
+        Implement the cost function and its gradient.
         """
 
         m = X.shape[1]
