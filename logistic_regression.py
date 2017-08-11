@@ -107,7 +107,7 @@ class LogisticRegression:
 
     def model(self, X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate = 0.5, print_cost = False):
         """
-        Builds the logistic regression model by calling the function you've implemented previously
+        Builds the logistic regression model.
         """
         # Initialize params.
         w, b = self.initialize_with_zeros(X_train.shape[0])
