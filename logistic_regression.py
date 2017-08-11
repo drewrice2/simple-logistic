@@ -3,7 +3,7 @@ import numpy as np
 # -------------------------------------------------------------------
 # This implentation of Logistic Regression is a programming          #
 #   assignment from Coursera's Deep Learning course. It is for       #
-#   binary classification. We use Logistic Regression as a starting  #                                       #
+#   binary classification. We use Logistic Regression as a starting  # 
 #   point for coding up neural networks.                             #
 #                                                                    #
 # There is definitely room to improve the overall organization of    #
