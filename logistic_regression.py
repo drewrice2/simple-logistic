@@ -105,7 +105,7 @@ class LogisticRegression:
         assert(Y_prediction.shape == (1, m))
         return Y_prediction
 
-    def model(self, X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate = 0.5, print_cost = False):
+    def model(self, X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate = 0.5):
         """
         Builds the logistic regression model.
         """
