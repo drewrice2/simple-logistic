@@ -7,7 +7,7 @@ import numpy as np
 #   point for coding up neural networks.                             #
 #                                                                    #
 # There is definitely room to improve the overall organization of    #
-#   the code. Perhaps, allowing for variable initialization to occur #
+#   the code. Perhaps allowing for variable initialization to occur  #
 #   in `__init__`.                                                   #
 # ------------------------------------------------------------------ #
 
@@ -53,7 +53,7 @@ class LogisticRegression:
         dw = (1/m)*np.dot(X,(A-Y).T)
         db = (1/m)*np.sum(A-Y)
 
-        # Attempting to use more `assert` statements...
+        # Attempting to use more `assert` statements.
         assert(dw.shape == w.shape)
         cost = np.squeeze(cost)
         assert(cost.shape == ())
